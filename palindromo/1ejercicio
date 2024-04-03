@@ -1,0 +1,9 @@
+repeat=""
+while repeat !="quit":
+    edad=int(input("enter your age:  "))
+    print(f"your age is {edad}")
+    if edad>=18:
+        print("he's older")
+    else:
+        print("you are a minor")
+    repeat=input("type quit to exit: ").lower()
